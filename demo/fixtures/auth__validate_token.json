@@ -1,0 +1,65 @@
+{
+  "path": "/auth/validate_token",
+  "status": 200,
+  "body": {
+    "payload": {
+      "success": true,
+      "data": {
+        "access_token": "demo",
+        "account_id": 1,
+        "available_name": "John",
+        "avatar_url": "",
+        "confirmed": true,
+        "display_name": null,
+        "message_signature": null,
+        "email": "john@acme.inc",
+        "id": 1,
+        "inviter_id": null,
+        "name": "John",
+        "provider": "email",
+        "pubsub_token": "demo",
+        "role": "administrator",
+        "ui_settings": {},
+        "uid": "john@acme.inc",
+        "type": "SuperAdmin",
+        "accounts": [
+          {
+            "id": 1,
+            "name": "Acme Inc",
+            "status": "active",
+            "onboarding_step": null,
+            "active_at": "2026-09-04T13:36:14.173Z",
+            "role": "administrator",
+            "permissions": [
+              "administrator"
+            ],
+            "availability": "online",
+            "availability_status": "offline",
+            "auto_offline": true,
+            "api_and_webhooks": true,
+            "custom_role_id": null,
+            "custom_role": null
+          },
+          {
+            "id": 2,
+            "name": "Acme Org",
+            "status": "active",
+            "onboarding_step": null,
+            "active_at": null,
+            "role": "administrator",
+            "permissions": [
+              "administrator"
+            ],
+            "availability": "online",
+            "availability_status": "offline",
+            "auto_offline": true,
+            "api_and_webhooks": true,
+            "custom_role_id": null,
+            "custom_role": null
+          }
+        ],
+        "created_at": "2026-09-04T13:34:14.133Z"
+      }
+    }
+  }
+}

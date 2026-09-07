@@ -1,0 +1,14 @@
+{
+  "path": "/api/v1/accounts/1/canned_responses",
+  "status": 200,
+  "body": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "short_code": "start",
+      "content": "Hello welcome to chatwoot.",
+      "created_at": "2026-09-04T13:34:14.674Z",
+      "updated_at": "2026-09-04T13:34:14.674Z"
+    }
+  ]
+}

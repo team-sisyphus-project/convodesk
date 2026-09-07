@@ -1,0 +1,5 @@
+{
+  "path": "/api/v1/accounts/1/notifications/unread_count",
+  "status": 200,
+  "body": 6
+}

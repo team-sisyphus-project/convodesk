@@ -1,0 +1,20 @@
+{
+  "path": "/api/v1/accounts/1/agents",
+  "status": 200,
+  "body": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "availability_status": "offline",
+      "auto_offline": true,
+      "confirmed": true,
+      "email": "john@acme.inc",
+      "provider": "email",
+      "available_name": "John",
+      "name": "John",
+      "role": "administrator",
+      "thumbnail": "",
+      "custom_role_id": null
+    }
+  ]
+}

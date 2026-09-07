@@ -1,0 +1,88 @@
+{
+  "path": "/api/v1/accounts/1/conversations/6/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "bbf79ca7eaa84a3d62a16d472ac0797b4a45b73474f23b2bda1be1f0731207f7",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "dev@saffronworks.in",
+        "id": 6,
+        "identifier": null,
+        "name": "Dev Ramachandran",
+        "phone_number": "+919876543210",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "John",
+        "available_name": "John",
+        "avatar_url": "",
+        "type": "user",
+        "availability_status": "offline",
+        "thumbnail": ""
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 22,
+        "content": "Need help setting up my new device.",
+        "inbox_id": 3,
+        "conversation_id": 6,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788511720,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "bbf79ca7eaa84a3d62a16d472ac0797b4a45b73474f23b2bda1be1f0731207f7",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "dev@saffronworks.in",
+          "id": 6,
+          "identifier": null,
+          "name": "Dev Ramachandran",
+          "phone_number": "+919876543210",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 23,
+        "content": "Thanks for reaching out! Let me take a look at that for you.",
+        "inbox_id": 3,
+        "conversation_id": 6,
+        "message_type": 1,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788512440,
+        "private": false,
+        "source_id": "conversation/c36e3956-0590-4ef9-b26e-e47db6e1d0c8/messages/23@acme.inc",
+        "sender": {
+          "id": 1,
+          "name": "John",
+          "available_name": "John",
+          "avatar_url": "",
+          "type": "user",
+          "availability_status": "offline",
+          "thumbnail": ""
+        }
+      }
+    ]
+  }
+}

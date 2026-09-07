@@ -1,0 +1,118 @@
+{
+  "path": "/api/v1/accounts/1/conversations/2/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [
+        "lead"
+      ],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "ab018ec42056abc2d04b07079244a15f32594064d2d474b9fbddf093827f7c3d",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "nora@driftburner.inc",
+        "id": 2,
+        "identifier": null,
+        "name": "Nora Whitfield",
+        "phone_number": "+14155550142",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "John",
+        "available_name": "John",
+        "avatar_url": "",
+        "type": "user",
+        "availability_status": "offline",
+        "thumbnail": ""
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 10,
+        "content": "Can we use the same widget on two domains?",
+        "inbox_id": 2,
+        "conversation_id": 2,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788526119,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "ab018ec42056abc2d04b07079244a15f32594064d2d474b9fbddf093827f7c3d",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "nora@driftburner.inc",
+          "id": 2,
+          "identifier": null,
+          "name": "Nora Whitfield",
+          "phone_number": "+14155550142",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 11,
+        "content": "Thanks for reaching out! Let me take a look at that for you.",
+        "inbox_id": 2,
+        "conversation_id": 2,
+        "message_type": 1,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788526839,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "id": 1,
+          "name": "John",
+          "available_name": "John",
+          "avatar_url": "",
+          "type": "user",
+          "availability_status": "offline",
+          "thumbnail": ""
+        }
+      },
+      {
+        "id": 12,
+        "content": "Perfect, that worked. Thank you!",
+        "inbox_id": 2,
+        "conversation_id": 2,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788527319,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "ab018ec42056abc2d04b07079244a15f32594064d2d474b9fbddf093827f7c3d",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "nora@driftburner.inc",
+          "id": 2,
+          "identifier": null,
+          "name": "Nora Whitfield",
+          "phone_number": "+14155550142",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      }
+    ]
+  }
+}

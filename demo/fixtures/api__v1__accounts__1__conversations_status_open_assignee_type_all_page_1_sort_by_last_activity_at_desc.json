@@ -1,0 +1,1019 @@
+{
+  "path": "/api/v1/accounts/1/conversations?status=open&assignee_type=all&page=1&sort_by=last_activity_at_desc",
+  "status": 200,
+  "body": {
+    "data": {
+      "meta": {
+        "mine_count": 7,
+        "assigned_count": 7,
+        "unassigned_count": 0,
+        "all_count": 7
+      },
+      "payload": [
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "942a1c861c53f0b935ed2b172492761bffa3454ade2fd695270332ef890f0dd3",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "availability_status": "offline",
+              "email": "ana@cieloroto.es",
+              "id": 7,
+              "name": "Ana Belmonte",
+              "phone_number": "+34600123456",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788529720,
+              "created_at": 1788529720
+            },
+            "channel": "Channel::Api",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 7,
+          "messages": [
+            {
+              "id": 30,
+              "content": "Assigned to John by Default Policy",
+              "account_id": 1,
+              "inbox_id": 4,
+              "conversation_id": 7,
+              "message_type": 2,
+              "created_at": 1788529723,
+              "updated_at": "2026-09-04T13:48:43.606Z",
+              "private": false,
+              "status": "sent",
+              "source_id": null,
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": null,
+              "sender_id": null,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Assigned to John by Default Policy",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 1,
+                "last_activity_at": 1788529723,
+                "contact_inbox": {
+                  "source_id": "demo-5-0caa2176"
+                }
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "0ba6989e-ebbc-4630-9558-b9bbd29af04e",
+          "additional_attributes": {},
+          "agent_last_seen_at": 0,
+          "assignee_last_seen_at": 0,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 4,
+          "labels": [],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788529720,
+          "updated_at": 1788529723.6254349,
+          "timestamp": 1788529723,
+          "first_reply_created_at": 1788508840,
+          "unread_count": 1,
+          "last_non_activity_message": {
+            "id": 25,
+            "content": "Thanks for reaching out! Let me take a look at that for you.",
+            "account_id": 1,
+            "inbox_id": 4,
+            "conversation_id": 7,
+            "message_type": 1,
+            "created_at": 1788508840,
+            "updated_at": "2026-09-04T13:48:40.636Z",
+            "private": false,
+            "status": "sent",
+            "source_id": null,
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "User",
+            "sender_id": 1,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Thanks for reaching out! Let me take a look at that for you.",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 1,
+              "last_activity_at": 1788529723,
+              "contact_inbox": {
+                "source_id": "demo-5-0caa2176"
+              }
+            },
+            "sender": {
+              "id": 1,
+              "name": "John",
+              "available_name": "John",
+              "avatar_url": "",
+              "type": "user",
+              "availability_status": "offline",
+              "thumbnail": ""
+            }
+          },
+          "last_activity_at": 1788529723,
+          "priority": null,
+          "waiting_since": 0,
+          "sla_policy_id": null
+        },
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "dac15965aef96c2ddb80ed946a35f37d85fcb96eaa5bff48769917fb36b5fe45",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "availability_status": "offline",
+              "email": "milo@paperlayer.co",
+              "id": 3,
+              "name": "Milo Aranda",
+              "phone_number": "+14155550178",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788529720,
+              "created_at": 1788529720
+            },
+            "channel": "Channel::Email",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 3,
+          "messages": [
+            {
+              "id": 29,
+              "content": "Assigned to John by Default Policy",
+              "account_id": 1,
+              "inbox_id": 3,
+              "conversation_id": 3,
+              "message_type": 2,
+              "created_at": 1788529723,
+              "updated_at": "2026-09-04T13:48:43.582Z",
+              "private": false,
+              "status": "sent",
+              "source_id": null,
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": null,
+              "sender_id": null,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Assigned to John by Default Policy",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 2,
+                "last_activity_at": 1788529723,
+                "contact_inbox": {
+                  "source_id": "demo-1-cb01f8cb"
+                }
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "25e4ec77-bd32-4aff-8e55-3ac935818aad",
+          "additional_attributes": {},
+          "agent_last_seen_at": 0,
+          "assignee_last_seen_at": 0,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 3,
+          "labels": [
+            "onboarding"
+          ],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788529720,
+          "updated_at": 1788529723.605248,
+          "timestamp": 1788529723,
+          "first_reply_created_at": 1788523240,
+          "unread_count": 2,
+          "last_non_activity_message": {
+            "id": 15,
+            "content": "Perfect, that worked. Thank you!",
+            "account_id": 1,
+            "inbox_id": 3,
+            "conversation_id": 3,
+            "message_type": 0,
+            "created_at": 1788523720,
+            "updated_at": "2026-09-04T13:48:40.147Z",
+            "private": false,
+            "status": "sent",
+            "source_id": null,
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "Contact",
+            "sender_id": 3,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Perfect, that worked. Thank you!",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 2,
+              "last_activity_at": 1788529723,
+              "contact_inbox": {
+                "source_id": "demo-1-cb01f8cb"
+              }
+            },
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "dac15965aef96c2ddb80ed946a35f37d85fcb96eaa5bff48769917fb36b5fe45",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "custom_attributes": {},
+              "email": "milo@paperlayer.co",
+              "id": 3,
+              "identifier": null,
+              "name": "Milo Aranda",
+              "phone_number": "+14155550178",
+              "thumbnail": "",
+              "blocked": false,
+              "type": "contact"
+            }
+          },
+          "last_activity_at": 1788529723,
+          "priority": null,
+          "waiting_since": 1788523720,
+          "sla_policy_id": null
+        },
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "89e8560b88ce77c2d1985c8a334bfaea35186b43b301a9b77f2261a465a9b447",
+                "last_avatar_sync_at": "2026-09-04T13:35:06Z"
+              },
+              "availability_status": "offline",
+              "email": "jane@example.com",
+              "id": 1,
+              "name": "jane",
+              "phone_number": "+2320000",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788528854,
+              "created_at": 1788528854
+            },
+            "channel": "Channel::WebWidget",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 1,
+          "messages": [
+            {
+              "id": 9,
+              "content": "Hi Jane, this is the convodesk local instance. How can I help?",
+              "account_id": 1,
+              "inbox_id": 1,
+              "conversation_id": 1,
+              "message_type": 1,
+              "created_at": 1788529028,
+              "updated_at": "2026-09-04T13:37:08.107Z",
+              "private": false,
+              "status": "sent",
+              "source_id": null,
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": "User",
+              "sender_id": 1,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Hi Jane, this is the convodesk local instance. How can I help?",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 0,
+                "last_activity_at": 1788529028,
+                "contact_inbox": {
+                  "source_id": "1"
+                }
+              },
+              "sender": {
+                "id": 1,
+                "name": "John",
+                "available_name": "John",
+                "avatar_url": "",
+                "type": "user",
+                "availability_status": "offline",
+                "thumbnail": ""
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "e842d13f-07d1-4b49-8576-94c345361c78",
+          "additional_attributes": {},
+          "agent_last_seen_at": 1788529028,
+          "assignee_last_seen_at": 1788529028,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 1,
+          "labels": [
+            "device-setup"
+          ],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788528854,
+          "updated_at": 1788529720.88324,
+          "timestamp": 1788529028,
+          "first_reply_created_at": 1788529028,
+          "unread_count": 0,
+          "last_non_activity_message": {
+            "id": 9,
+            "content": "Hi Jane, this is the convodesk local instance. How can I help?",
+            "account_id": 1,
+            "inbox_id": 1,
+            "conversation_id": 1,
+            "message_type": 1,
+            "created_at": 1788529028,
+            "updated_at": "2026-09-04T13:37:08.107Z",
+            "private": false,
+            "status": "sent",
+            "source_id": null,
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "User",
+            "sender_id": 1,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Hi Jane, this is the convodesk local instance. How can I help?",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 0,
+              "last_activity_at": 1788529028,
+              "contact_inbox": {
+                "source_id": "1"
+              }
+            },
+            "sender": {
+              "id": 1,
+              "name": "John",
+              "available_name": "John",
+              "avatar_url": "",
+              "type": "user",
+              "availability_status": "offline",
+              "thumbnail": ""
+            }
+          },
+          "last_activity_at": 1788529028,
+          "priority": null,
+          "waiting_since": 0,
+          "sla_policy_id": null
+        },
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "ab018ec42056abc2d04b07079244a15f32594064d2d474b9fbddf093827f7c3d",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "availability_status": "offline",
+              "email": "nora@driftburner.inc",
+              "id": 2,
+              "name": "Nora Whitfield",
+              "phone_number": "+14155550142",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788529720,
+              "created_at": 1788529719
+            },
+            "channel": "Channel::WebWidget",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 2,
+          "messages": [
+            {
+              "id": 12,
+              "content": "Perfect, that worked. Thank you!",
+              "account_id": 1,
+              "inbox_id": 2,
+              "conversation_id": 2,
+              "message_type": 0,
+              "created_at": 1788527319,
+              "updated_at": "2026-09-04T13:48:39.977Z",
+              "private": false,
+              "status": "sent",
+              "source_id": null,
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": "Contact",
+              "sender_id": 2,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Perfect, that worked. Thank you!",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 2,
+                "last_activity_at": 1788527319,
+                "contact_inbox": {
+                  "source_id": "demo-0-bd86b86e"
+                }
+              },
+              "sender": {
+                "additional_attributes": {
+                  "avatar_url_hash": "ab018ec42056abc2d04b07079244a15f32594064d2d474b9fbddf093827f7c3d",
+                  "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+                },
+                "custom_attributes": {},
+                "email": "nora@driftburner.inc",
+                "id": 2,
+                "identifier": null,
+                "name": "Nora Whitfield",
+                "phone_number": "+14155550142",
+                "thumbnail": "",
+                "blocked": false,
+                "type": "contact"
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "1a28fcc1-4b90-46a0-860c-cc1592849116",
+          "additional_attributes": {},
+          "agent_last_seen_at": 0,
+          "assignee_last_seen_at": 0,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 2,
+          "labels": [
+            "lead"
+          ],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788529719,
+          "updated_at": 1788529720.9238322,
+          "timestamp": 1788527319,
+          "first_reply_created_at": 1788526839,
+          "unread_count": 2,
+          "last_non_activity_message": {
+            "id": 12,
+            "content": "Perfect, that worked. Thank you!",
+            "account_id": 1,
+            "inbox_id": 2,
+            "conversation_id": 2,
+            "message_type": 0,
+            "created_at": 1788527319,
+            "updated_at": "2026-09-04T13:48:39.977Z",
+            "private": false,
+            "status": "sent",
+            "source_id": null,
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "Contact",
+            "sender_id": 2,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Perfect, that worked. Thank you!",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 2,
+              "last_activity_at": 1788527319,
+              "contact_inbox": {
+                "source_id": "demo-0-bd86b86e"
+              }
+            },
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "ab018ec42056abc2d04b07079244a15f32594064d2d474b9fbddf093827f7c3d",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "custom_attributes": {},
+              "email": "nora@driftburner.inc",
+              "id": 2,
+              "identifier": null,
+              "name": "Nora Whitfield",
+              "phone_number": "+14155550142",
+              "thumbnail": "",
+              "blocked": false,
+              "type": "contact"
+            }
+          },
+          "last_activity_at": 1788527319,
+          "priority": null,
+          "waiting_since": 1788527319,
+          "sla_policy_id": null
+        },
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "9d9818a3dcdff8c81f25208a46b5d02b52c512197cb23a83da4269d169f7109e",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "availability_status": "offline",
+              "email": "sunny@northlight.io",
+              "id": 4,
+              "name": "Sunny Okafor",
+              "phone_number": "+14155550119",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788529720,
+              "created_at": 1788529720
+            },
+            "channel": "Channel::Api",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 4,
+          "messages": [
+            {
+              "id": 18,
+              "content": "Perfect, that worked. Thank you!",
+              "account_id": 1,
+              "inbox_id": 4,
+              "conversation_id": 4,
+              "message_type": 0,
+              "created_at": 1788520120,
+              "updated_at": "2026-09-04T13:48:40.285Z",
+              "private": false,
+              "status": "sent",
+              "source_id": null,
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": "Contact",
+              "sender_id": 4,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Perfect, that worked. Thank you!",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 2,
+                "last_activity_at": 1788520120,
+                "contact_inbox": {
+                  "source_id": "demo-2-ee84ccad"
+                }
+              },
+              "sender": {
+                "additional_attributes": {
+                  "avatar_url_hash": "9d9818a3dcdff8c81f25208a46b5d02b52c512197cb23a83da4269d169f7109e",
+                  "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+                },
+                "custom_attributes": {},
+                "email": "sunny@northlight.io",
+                "id": 4,
+                "identifier": null,
+                "name": "Sunny Okafor",
+                "phone_number": "+14155550119",
+                "thumbnail": "",
+                "blocked": false,
+                "type": "contact"
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "55b092d1-53ad-4cfa-ab55-10863d91e955",
+          "additional_attributes": {},
+          "agent_last_seen_at": 0,
+          "assignee_last_seen_at": 0,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 4,
+          "labels": [],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788529720,
+          "updated_at": 1788529720.293065,
+          "timestamp": 1788520120,
+          "first_reply_created_at": 1788519640,
+          "unread_count": 2,
+          "last_non_activity_message": {
+            "id": 18,
+            "content": "Perfect, that worked. Thank you!",
+            "account_id": 1,
+            "inbox_id": 4,
+            "conversation_id": 4,
+            "message_type": 0,
+            "created_at": 1788520120,
+            "updated_at": "2026-09-04T13:48:40.285Z",
+            "private": false,
+            "status": "sent",
+            "source_id": null,
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "Contact",
+            "sender_id": 4,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Perfect, that worked. Thank you!",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 2,
+              "last_activity_at": 1788520120,
+              "contact_inbox": {
+                "source_id": "demo-2-ee84ccad"
+              }
+            },
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "9d9818a3dcdff8c81f25208a46b5d02b52c512197cb23a83da4269d169f7109e",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "custom_attributes": {},
+              "email": "sunny@northlight.io",
+              "id": 4,
+              "identifier": null,
+              "name": "Sunny Okafor",
+              "phone_number": "+14155550119",
+              "thumbnail": "",
+              "blocked": false,
+              "type": "contact"
+            }
+          },
+          "last_activity_at": 1788520120,
+          "priority": null,
+          "waiting_since": 1788520120,
+          "sla_policy_id": null
+        },
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "bbf79ca7eaa84a3d62a16d472ac0797b4a45b73474f23b2bda1be1f0731207f7",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "availability_status": "offline",
+              "email": "dev@saffronworks.in",
+              "id": 6,
+              "name": "Dev Ramachandran",
+              "phone_number": "+919876543210",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788529720,
+              "created_at": 1788529720
+            },
+            "channel": "Channel::Email",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 6,
+          "messages": [
+            {
+              "id": 23,
+              "content": "Thanks for reaching out! Let me take a look at that for you.",
+              "account_id": 1,
+              "inbox_id": 3,
+              "conversation_id": 6,
+              "message_type": 1,
+              "created_at": 1788512440,
+              "updated_at": "2026-09-04T13:48:42.897Z",
+              "private": false,
+              "status": "sent",
+              "source_id": "conversation/c36e3956-0590-4ef9-b26e-e47db6e1d0c8/messages/23@acme.inc",
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": "User",
+              "sender_id": 1,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Thanks for reaching out! Let me take a look at that for you.",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 1,
+                "last_activity_at": 1788512440,
+                "contact_inbox": {
+                  "source_id": "demo-4-caf37600"
+                }
+              },
+              "sender": {
+                "id": 1,
+                "name": "John",
+                "available_name": "John",
+                "avatar_url": "",
+                "type": "user",
+                "availability_status": "offline",
+                "thumbnail": ""
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "c36e3956-0590-4ef9-b26e-e47db6e1d0c8",
+          "additional_attributes": {},
+          "agent_last_seen_at": 0,
+          "assignee_last_seen_at": 0,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 3,
+          "labels": [],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788529720,
+          "updated_at": 1788529720.501177,
+          "timestamp": 1788512440,
+          "first_reply_created_at": 1788512440,
+          "unread_count": 1,
+          "last_non_activity_message": {
+            "id": 23,
+            "content": "Thanks for reaching out! Let me take a look at that for you.",
+            "account_id": 1,
+            "inbox_id": 3,
+            "conversation_id": 6,
+            "message_type": 1,
+            "created_at": 1788512440,
+            "updated_at": "2026-09-04T13:48:42.897Z",
+            "private": false,
+            "status": "sent",
+            "source_id": "conversation/c36e3956-0590-4ef9-b26e-e47db6e1d0c8/messages/23@acme.inc",
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "User",
+            "sender_id": 1,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Thanks for reaching out! Let me take a look at that for you.",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 1,
+              "last_activity_at": 1788512440,
+              "contact_inbox": {
+                "source_id": "demo-4-caf37600"
+              }
+            },
+            "sender": {
+              "id": 1,
+              "name": "John",
+              "available_name": "John",
+              "avatar_url": "",
+              "type": "user",
+              "availability_status": "offline",
+              "thumbnail": ""
+            }
+          },
+          "last_activity_at": 1788512440,
+          "priority": null,
+          "waiting_since": 0,
+          "sla_policy_id": null
+        },
+        {
+          "meta": {
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "73d242174e225fe17cee48c0c7db939f7e19cad90fd19af3155cad8f40768438",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "availability_status": "offline",
+              "email": "tobias@harborglass.co.uk",
+              "id": 8,
+              "name": "Tobias Wren",
+              "phone_number": "+447700900123",
+              "blocked": false,
+              "identifier": null,
+              "thumbnail": "",
+              "custom_attributes": {},
+              "last_activity_at": 1788529720,
+              "created_at": 1788529720
+            },
+            "channel": "Channel::WebWidget",
+            "assignee": {
+              "id": 1,
+              "account_id": 1,
+              "availability_status": "offline",
+              "auto_offline": true,
+              "confirmed": true,
+              "email": "john@acme.inc",
+              "provider": "email",
+              "available_name": "John",
+              "name": "John",
+              "role": "administrator",
+              "thumbnail": "",
+              "custom_role_id": null
+            },
+            "assignee_type": "User",
+            "hmac_verified": true
+          },
+          "id": 8,
+          "messages": [
+            {
+              "id": 26,
+              "content": "Billing question about seats.",
+              "account_id": 1,
+              "inbox_id": 2,
+              "conversation_id": 8,
+              "message_type": 0,
+              "created_at": 1788504520,
+              "updated_at": "2026-09-04T13:48:40.702Z",
+              "private": false,
+              "status": "sent",
+              "source_id": null,
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": "Contact",
+              "sender_id": 8,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": "Billing question about seats.",
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 1,
+                "last_activity_at": 1788504520,
+                "contact_inbox": {
+                  "source_id": "demo-6-255f749d"
+                }
+              },
+              "sender": {
+                "additional_attributes": {
+                  "avatar_url_hash": "73d242174e225fe17cee48c0c7db939f7e19cad90fd19af3155cad8f40768438",
+                  "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+                },
+                "custom_attributes": {},
+                "email": "tobias@harborglass.co.uk",
+                "id": 8,
+                "identifier": null,
+                "name": "Tobias Wren",
+                "phone_number": "+447700900123",
+                "thumbnail": "",
+                "blocked": false,
+                "type": "contact"
+              }
+            }
+          ],
+          "account_id": 1,
+          "uuid": "e1ef5284-d59b-471e-b678-214e38e0e757",
+          "additional_attributes": {},
+          "agent_last_seen_at": 0,
+          "assignee_last_seen_at": 0,
+          "can_reply": true,
+          "contact_last_seen_at": 0,
+          "custom_attributes": {},
+          "inbox_id": 2,
+          "labels": [],
+          "muted": false,
+          "snoozed_until": null,
+          "status": "open",
+          "created_at": 1788529720,
+          "updated_at": 1788529720.704055,
+          "timestamp": 1788504520,
+          "first_reply_created_at": 0,
+          "unread_count": 1,
+          "last_non_activity_message": {
+            "id": 26,
+            "content": "Billing question about seats.",
+            "account_id": 1,
+            "inbox_id": 2,
+            "conversation_id": 8,
+            "message_type": 0,
+            "created_at": 1788504520,
+            "updated_at": "2026-09-04T13:48:40.702Z",
+            "private": false,
+            "status": "sent",
+            "source_id": null,
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "Contact",
+            "sender_id": 8,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": "Billing question about seats.",
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 1,
+              "last_activity_at": 1788504520,
+              "contact_inbox": {
+                "source_id": "demo-6-255f749d"
+              }
+            },
+            "sender": {
+              "additional_attributes": {
+                "avatar_url_hash": "73d242174e225fe17cee48c0c7db939f7e19cad90fd19af3155cad8f40768438",
+                "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+              },
+              "custom_attributes": {},
+              "email": "tobias@harborglass.co.uk",
+              "id": 8,
+              "identifier": null,
+              "name": "Tobias Wren",
+              "phone_number": "+447700900123",
+              "thumbnail": "",
+              "blocked": false,
+              "type": "contact"
+            }
+          },
+          "last_activity_at": 1788504520,
+          "priority": null,
+          "waiting_since": 1788529720,
+          "sla_policy_id": null
+        }
+      ]
+    }
+  }
+}

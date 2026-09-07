@@ -1,0 +1,7 @@
+{
+  "path": "/api/v1/accounts/1/conversations/5/labels",
+  "status": 200,
+  "body": {
+    "payload": []
+  }
+}

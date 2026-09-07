@@ -1,0 +1,5 @@
+{
+  "path": "/api/v1/accounts/1/custom_attribute_definitions?attribute_model=conversation_attribute",
+  "status": 200,
+  "body": []
+}

@@ -1,0 +1,107 @@
+{
+  "path": "/api/v1/accounts/1/conversations/5/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "47740263cfd76b2eabfa1b1c2c5d8430bf4f98870c196fa4acbd3218c31138e3",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "petra@vantaglass.se",
+        "id": 5,
+        "identifier": null,
+        "name": "Petra Lindqvist",
+        "phone_number": "+46701234567",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 19,
+        "content": "The mobile app keeps logging me out.",
+        "inbox_id": 2,
+        "conversation_id": 5,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788515320,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "47740263cfd76b2eabfa1b1c2c5d8430bf4f98870c196fa4acbd3218c31138e3",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "petra@vantaglass.se",
+          "id": 5,
+          "identifier": null,
+          "name": "Petra Lindqvist",
+          "phone_number": "+46701234567",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 20,
+        "content": "Thanks for reaching out! Let me take a look at that for you.",
+        "inbox_id": 2,
+        "conversation_id": 5,
+        "message_type": 1,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788516040,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "id": 1,
+          "name": "John",
+          "available_name": "John",
+          "avatar_url": "",
+          "type": "user",
+          "availability_status": "offline",
+          "thumbnail": ""
+        }
+      },
+      {
+        "id": 21,
+        "content": "Perfect, that worked. Thank you!",
+        "inbox_id": 2,
+        "conversation_id": 5,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788516520,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "47740263cfd76b2eabfa1b1c2c5d8430bf4f98870c196fa4acbd3218c31138e3",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "petra@vantaglass.se",
+          "id": 5,
+          "identifier": null,
+          "name": "Petra Lindqvist",
+          "phone_number": "+46701234567",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      }
+    ]
+  }
+}

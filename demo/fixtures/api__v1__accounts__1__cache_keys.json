@@ -1,0 +1,12 @@
+{
+  "path": "/api/v1/accounts/1/cache_keys",
+  "status": 200,
+  "body": {
+    "cache_keys": {
+      "label": "1788529720",
+      "inbox": "1788529719",
+      "team": "0000000000",
+      "canned_response": "1788528854"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "path": "/api/v1/accounts/1/conversations/8/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "73d242174e225fe17cee48c0c7db939f7e19cad90fd19af3155cad8f40768438",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "tobias@harborglass.co.uk",
+        "id": 8,
+        "identifier": null,
+        "name": "Tobias Wren",
+        "phone_number": "+447700900123",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "John",
+        "available_name": "John",
+        "avatar_url": "",
+        "type": "user",
+        "availability_status": "offline",
+        "thumbnail": ""
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 26,
+        "content": "Billing question about seats.",
+        "inbox_id": 2,
+        "conversation_id": 8,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788504520,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "73d242174e225fe17cee48c0c7db939f7e19cad90fd19af3155cad8f40768438",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "tobias@harborglass.co.uk",
+          "id": 8,
+          "identifier": null,
+          "name": "Tobias Wren",
+          "phone_number": "+447700900123",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      }
+    ]
+  }
+}

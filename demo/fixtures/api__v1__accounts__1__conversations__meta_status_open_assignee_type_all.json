@@ -1,0 +1,12 @@
+{
+  "path": "/api/v1/accounts/1/conversations/meta?status=open&assignee_type=all",
+  "status": 200,
+  "body": {
+    "meta": {
+      "mine_count": 7,
+      "assigned_count": 7,
+      "unassigned_count": 0,
+      "all_count": 7
+    }
+  }
+}

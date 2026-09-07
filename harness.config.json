@@ -1,0 +1,25 @@
+{
+  "name": "convodesk",
+  "app": {
+    "smokeCommand": "node demo/server.mjs",
+    "portBase": 5900,
+    "portArg": "--port",
+    "strictPortArg": "--strictPort",
+    "hashRouting": true,
+    "demoMode": true
+  },
+  "validation": {
+    "steps": [
+      {
+        "id": "demo-routes",
+        "kind": "unit",
+        "command": "node demo/check-routes.mjs"
+      }
+    ]
+  },
+  "notes": {
+    "startup": "demo/dist is committed, so `npm run build` returns immediately and `npm start` only serves files. Building the dashboard needs a full pnpm install plus ~20s of vite, which is more than a preview build step should risk. demo/server.mjs uses node builtins only, binds the assigned port straight away and needs no node_modules. Commands are invoked directly rather than through npm, because npm swallows unknown flags and would drop --port.",
+    "externalDependencies": "None. The preview runs the real agent dashboard with its axios transport replaced by an in-browser dataset (demo/transport.js), so no Rails, Postgres or Redis is involved. The full stack needs Ruby 3.4, Postgres with pgvector and Redis and is run locally with bin/local-dev.sh, not here.",
+    "hashRouting": "Routes live after the '#'. A preview engine serves the build from wherever it likes; with path routing the app only works when that is the origin root. ApiClient also reads the account id from the hash in this build (see vite.demo.config.ts)."
+  }
+}

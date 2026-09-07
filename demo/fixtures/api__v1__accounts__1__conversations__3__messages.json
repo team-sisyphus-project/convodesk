@@ -1,0 +1,131 @@
+{
+  "path": "/api/v1/accounts/1/conversations/3/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [
+        "onboarding"
+      ],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "dac15965aef96c2ddb80ed946a35f37d85fcb96eaa5bff48769917fb36b5fe45",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "milo@paperlayer.co",
+        "id": 3,
+        "identifier": null,
+        "name": "Milo Aranda",
+        "phone_number": "+14155550178",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "John",
+        "available_name": "John",
+        "avatar_url": "",
+        "type": "user",
+        "availability_status": "offline",
+        "thumbnail": ""
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 13,
+        "content": "My invoice shows the old plan price.",
+        "inbox_id": 3,
+        "conversation_id": 3,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788522520,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "dac15965aef96c2ddb80ed946a35f37d85fcb96eaa5bff48769917fb36b5fe45",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "milo@paperlayer.co",
+          "id": 3,
+          "identifier": null,
+          "name": "Milo Aranda",
+          "phone_number": "+14155550178",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 14,
+        "content": "Thanks for reaching out! Let me take a look at that for you.",
+        "inbox_id": 3,
+        "conversation_id": 3,
+        "message_type": 1,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788523240,
+        "private": false,
+        "source_id": "conversation/25e4ec77-bd32-4aff-8e55-3ac935818aad/messages/14@acme.inc",
+        "sender": {
+          "id": 1,
+          "name": "John",
+          "available_name": "John",
+          "avatar_url": "",
+          "type": "user",
+          "availability_status": "offline",
+          "thumbnail": ""
+        }
+      },
+      {
+        "id": 15,
+        "content": "Perfect, that worked. Thank you!",
+        "inbox_id": 3,
+        "conversation_id": 3,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788523720,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "dac15965aef96c2ddb80ed946a35f37d85fcb96eaa5bff48769917fb36b5fe45",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "milo@paperlayer.co",
+          "id": 3,
+          "identifier": null,
+          "name": "Milo Aranda",
+          "phone_number": "+14155550178",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 29,
+        "content": "Assigned to John by Default Policy",
+        "inbox_id": 3,
+        "conversation_id": 3,
+        "message_type": 2,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788529723,
+        "private": false,
+        "source_id": null
+      }
+    ]
+  }
+}
