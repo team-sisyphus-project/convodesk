@@ -1,0 +1,16 @@
+# Preview Engine manifest. The repository root is a Rails app, which the engine
+# cannot run, so the preview target is demo/: the real dashboard built against
+# an in-browser dataset. See demo/README.md.
+model = "server"
+target = "demo"
+
+[build]
+# demo/dist is committed, so this returns immediately and never risks the
+# build timeout. Building it needs the root pnpm install plus vite.
+command = "npm run build"
+
+[serve]
+# Binds the assigned port before doing any work; node builtins only, so it
+# runs even with no node_modules.
+command = "npm start"
+port_env = "PORT"

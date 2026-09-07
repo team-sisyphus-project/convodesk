@@ -1,0 +1,51 @@
+{
+  "path": "/api/v1/accounts/1/",
+  "status": 200,
+  "body": {
+    "settings": {},
+    "created_at": "2026-09-04T13:34:13.930Z",
+    "domain": null,
+    "features": {
+      "inbound_emails": true,
+      "channel_email": true,
+      "channel_facebook": true,
+      "help_center": true,
+      "agent_bots": true,
+      "macros": true,
+      "agent_management": true,
+      "team_management": true,
+      "inbox_management": true,
+      "labels": true,
+      "custom_attributes": true,
+      "automations": true,
+      "canned_responses": true,
+      "integrations": true,
+      "voice_recorder": true,
+      "channel_website": true,
+      "campaigns": true,
+      "reports": true,
+      "crm": true,
+      "auto_resolve_conversations": true,
+      "chatwoot_v4": true,
+      "contact_chatwoot_support_team": true,
+      "channel_instagram": true,
+      "assignment_v2": true,
+      "channel_tiktok": true,
+      "captain_tasks": true,
+      "api_and_webhooks": true
+    },
+    "id": 1,
+    "locale": "en",
+    "name": "Acme Inc",
+    "support_email": "Chatwoot <accounts@chatwoot.com>",
+    "status": "active",
+    "cache_keys": {
+      "label": "1788529720",
+      "inbox": "1788529719",
+      "team": "0000000000",
+      "canned_response": "1788528854"
+    },
+    "latest_chatwoot_version": null,
+    "subscribed_features": []
+  }
+}

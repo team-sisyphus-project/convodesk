@@ -1,0 +1,14 @@
+{
+  "name": "convodesk-preview",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend-free preview of the convodesk dashboard. The preview target is this directory, so it installs nothing and serves the committed build.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "dev": "node start.mjs"
+  }
+}

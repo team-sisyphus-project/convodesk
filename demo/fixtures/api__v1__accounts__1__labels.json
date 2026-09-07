@@ -1,0 +1,36 @@
+{
+  "path": "/api/v1/accounts/1/labels",
+  "status": 200,
+  "body": {
+    "payload": [
+      {
+        "id": 1,
+        "title": "billing",
+        "description": null,
+        "color": "#1F93FF",
+        "show_on_sidebar": null
+      },
+      {
+        "id": 2,
+        "title": "device-setup",
+        "description": null,
+        "color": "#1F93FF",
+        "show_on_sidebar": null
+      },
+      {
+        "id": 3,
+        "title": "lead",
+        "description": null,
+        "color": "#059669",
+        "show_on_sidebar": null
+      },
+      {
+        "id": 4,
+        "title": "onboarding",
+        "description": null,
+        "color": "#1F93FF",
+        "show_on_sidebar": null
+      }
+    ]
+  }
+}

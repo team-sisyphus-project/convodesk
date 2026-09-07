@@ -1,0 +1,116 @@
+{
+  "path": "/api/v1/accounts/1/conversations/4/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "9d9818a3dcdff8c81f25208a46b5d02b52c512197cb23a83da4269d169f7109e",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "sunny@northlight.io",
+        "id": 4,
+        "identifier": null,
+        "name": "Sunny Okafor",
+        "phone_number": "+14155550119",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "John",
+        "available_name": "John",
+        "avatar_url": "",
+        "type": "user",
+        "availability_status": "offline",
+        "thumbnail": ""
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 16,
+        "content": "How do I export a conversation transcript?",
+        "inbox_id": 4,
+        "conversation_id": 4,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788518920,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "9d9818a3dcdff8c81f25208a46b5d02b52c512197cb23a83da4269d169f7109e",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "sunny@northlight.io",
+          "id": 4,
+          "identifier": null,
+          "name": "Sunny Okafor",
+          "phone_number": "+14155550119",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 17,
+        "content": "Thanks for reaching out! Let me take a look at that for you.",
+        "inbox_id": 4,
+        "conversation_id": 4,
+        "message_type": 1,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788519640,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "id": 1,
+          "name": "John",
+          "available_name": "John",
+          "avatar_url": "",
+          "type": "user",
+          "availability_status": "offline",
+          "thumbnail": ""
+        }
+      },
+      {
+        "id": 18,
+        "content": "Perfect, that worked. Thank you!",
+        "inbox_id": 4,
+        "conversation_id": 4,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788520120,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "9d9818a3dcdff8c81f25208a46b5d02b52c512197cb23a83da4269d169f7109e",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "sunny@northlight.io",
+          "id": 4,
+          "identifier": null,
+          "name": "Sunny Okafor",
+          "phone_number": "+14155550119",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      }
+    ]
+  }
+}

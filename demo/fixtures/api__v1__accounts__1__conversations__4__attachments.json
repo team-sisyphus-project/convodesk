@@ -1,0 +1,10 @@
+{
+  "path": "/api/v1/accounts/1/conversations/4/attachments",
+  "status": 200,
+  "body": {
+    "meta": {
+      "total_count": 0
+    },
+    "payload": []
+  }
+}

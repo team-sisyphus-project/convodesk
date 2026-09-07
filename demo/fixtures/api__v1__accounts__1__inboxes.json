@@ -1,0 +1,504 @@
+{
+  "path": "/api/v1/accounts/1/inboxes",
+  "status": 200,
+  "body": {
+    "payload": [
+      {
+        "id": 4,
+        "avatar_url": "",
+        "channel_id": 1,
+        "name": "Acme API",
+        "channel_type": "Channel::Api",
+        "greeting_enabled": false,
+        "greeting_message": null,
+        "working_hours_enabled": false,
+        "enable_email_collect": true,
+        "csat_survey_enabled": false,
+        "csat_config": {},
+        "enable_auto_assignment": true,
+        "auto_assignment_config": {},
+        "out_of_office_message": null,
+        "working_hours": [
+          {
+            "day_of_week": 0,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 1,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 2,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 3,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 4,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 5,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 6,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          }
+        ],
+        "timezone": "UTC",
+        "callback_webhook_url": null,
+        "allow_messages_after_resolved": true,
+        "lock_to_single_conversation": false,
+        "sender_name_type": "friendly",
+        "business_name": null,
+        "allowed_domains": null,
+        "widget_color": null,
+        "website_url": null,
+        "hmac_mandatory": false,
+        "welcome_title": null,
+        "welcome_tagline": null,
+        "web_widget_script": null,
+        "website_token": null,
+        "selected_feature_flags": null,
+        "reply_time": null,
+        "messaging_service_sid": null,
+        "phone_number": null,
+        "hmac_token": "demo",
+        "secret": "yK1FeYP3m64jwGpC1YWL5Cbw",
+        "webhook_url": null,
+        "inbox_identifier": "fe99777a9a3a3a1e",
+        "additional_attributes": {},
+        "provider": null
+      },
+      {
+        "id": 3,
+        "avatar_url": "",
+        "channel_id": 1,
+        "name": "Acme Email",
+        "channel_type": "Channel::Email",
+        "greeting_enabled": false,
+        "greeting_message": null,
+        "working_hours_enabled": false,
+        "enable_email_collect": true,
+        "csat_survey_enabled": false,
+        "csat_config": {},
+        "enable_auto_assignment": true,
+        "auto_assignment_config": {},
+        "out_of_office_message": null,
+        "working_hours": [
+          {
+            "day_of_week": 0,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 1,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 2,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 3,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 4,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 5,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 6,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          }
+        ],
+        "timezone": "UTC",
+        "callback_webhook_url": null,
+        "allow_messages_after_resolved": true,
+        "lock_to_single_conversation": false,
+        "sender_name_type": "friendly",
+        "business_name": null,
+        "allowed_domains": null,
+        "widget_color": null,
+        "website_url": null,
+        "hmac_mandatory": null,
+        "welcome_title": null,
+        "welcome_tagline": null,
+        "web_widget_script": null,
+        "website_token": null,
+        "selected_feature_flags": null,
+        "reply_time": null,
+        "messaging_service_sid": null,
+        "phone_number": null,
+        "email": "support@acme.inc",
+        "forwarding_enabled": false,
+        "imap_login": "",
+        "imap_password": "",
+        "imap_address": "",
+        "imap_port": 0,
+        "imap_enabled": false,
+        "imap_enable_ssl": true,
+        "imap_authentication": "plain",
+        "smtp_login": "",
+        "smtp_password": "",
+        "smtp_address": "",
+        "smtp_port": 0,
+        "smtp_enabled": false,
+        "smtp_domain": "",
+        "smtp_enable_ssl_tls": false,
+        "smtp_enable_starttls_auto": true,
+        "smtp_openssl_verify_mode": "none",
+        "smtp_authentication": "login",
+        "provider": null
+      },
+      {
+        "id": 1,
+        "avatar_url": "",
+        "channel_id": 1,
+        "name": "Acme Support",
+        "channel_type": "Channel::WebWidget",
+        "greeting_enabled": false,
+        "greeting_message": null,
+        "working_hours_enabled": false,
+        "enable_email_collect": true,
+        "csat_survey_enabled": false,
+        "csat_config": {},
+        "enable_auto_assignment": true,
+        "auto_assignment_config": {},
+        "out_of_office_message": null,
+        "working_hours": [
+          {
+            "day_of_week": 0,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 1,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 2,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 3,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 4,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 5,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 6,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          }
+        ],
+        "timezone": "UTC",
+        "callback_webhook_url": null,
+        "allow_messages_after_resolved": true,
+        "lock_to_single_conversation": false,
+        "sender_name_type": "friendly",
+        "business_name": null,
+        "allowed_domains": "",
+        "widget_color": "#1f93ff",
+        "website_url": "https://acme.inc",
+        "hmac_mandatory": false,
+        "welcome_title": null,
+        "welcome_tagline": null,
+        "web_widget_script": "\n    <script>\n      (function(d,t) {\n        var BASE_URL=\"http://localhost:3000\";\n        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n        g.src=BASE_URL+\"/packs/js/sdk.js\";\n        g.async = true;\n        s.parentNode.insertBefore(g,s);\n        g.onload=function(){\n          window.chatwootSDK.run({\n            websiteToken: 'UkFnfJ1ogwbN2FC2X6WFpaLK',\n            baseUrl: BASE_URL\n          })\n        }\n      })(document,\"script\");\n    </script>\n    ",
+        "website_token": "UkFnfJ1ogwbN2FC2X6WFpaLK",
+        "selected_feature_flags": [
+          "attachments",
+          "emoji_picker",
+          "end_conversation"
+        ],
+        "reply_time": "in_a_few_minutes",
+        "hmac_token": "demo",
+        "pre_chat_form_enabled": false,
+        "pre_chat_form_options": {
+          "pre_chat_fields": [
+            {
+              "name": "emailAddress",
+              "type": "email",
+              "label": "Email Id",
+              "enabled": false,
+              "required": true,
+              "field_type": "standard"
+            },
+            {
+              "name": "fullName",
+              "type": "text",
+              "label": "Full name",
+              "enabled": false,
+              "required": false,
+              "field_type": "standard"
+            },
+            {
+              "name": "phoneNumber",
+              "type": "text",
+              "label": "Phone number",
+              "enabled": false,
+              "required": false,
+              "field_type": "standard"
+            }
+          ],
+          "pre_chat_message": "Share your queries or comments here."
+        },
+        "continuity_via_email": true,
+        "messaging_service_sid": null,
+        "phone_number": null,
+        "provider": null
+      },
+      {
+        "id": 2,
+        "avatar_url": "",
+        "channel_id": 2,
+        "name": "Acme Website",
+        "channel_type": "Channel::WebWidget",
+        "greeting_enabled": false,
+        "greeting_message": null,
+        "working_hours_enabled": false,
+        "enable_email_collect": true,
+        "csat_survey_enabled": false,
+        "csat_config": {},
+        "enable_auto_assignment": true,
+        "auto_assignment_config": {},
+        "out_of_office_message": null,
+        "working_hours": [
+          {
+            "day_of_week": 0,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 1,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 2,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 3,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 4,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 5,
+            "closed_all_day": false,
+            "open_hour": 9,
+            "open_minutes": 0,
+            "close_hour": 17,
+            "close_minutes": 0,
+            "open_all_day": false
+          },
+          {
+            "day_of_week": 6,
+            "closed_all_day": true,
+            "open_hour": null,
+            "open_minutes": null,
+            "close_hour": null,
+            "close_minutes": null,
+            "open_all_day": false
+          }
+        ],
+        "timezone": "UTC",
+        "callback_webhook_url": null,
+        "allow_messages_after_resolved": true,
+        "lock_to_single_conversation": false,
+        "sender_name_type": "friendly",
+        "business_name": null,
+        "allowed_domains": "",
+        "widget_color": "#1f93ff",
+        "website_url": "https://acme.inc",
+        "hmac_mandatory": false,
+        "welcome_title": null,
+        "welcome_tagline": null,
+        "web_widget_script": "\n    <script>\n      (function(d,t) {\n        var BASE_URL=\"http://localhost:3000\";\n        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n        g.src=BASE_URL+\"/packs/js/sdk.js\";\n        g.async = true;\n        s.parentNode.insertBefore(g,s);\n        g.onload=function(){\n          window.chatwootSDK.run({\n            websiteToken: 'vQm3rSgX3j1gCCrx3WWnXCst',\n            baseUrl: BASE_URL\n          })\n        }\n      })(document,\"script\");\n    </script>\n    ",
+        "website_token": "vQm3rSgX3j1gCCrx3WWnXCst",
+        "selected_feature_flags": [
+          "attachments",
+          "emoji_picker",
+          "end_conversation"
+        ],
+        "reply_time": "in_a_few_minutes",
+        "hmac_token": "demo",
+        "pre_chat_form_enabled": false,
+        "pre_chat_form_options": {
+          "pre_chat_fields": [
+            {
+              "name": "emailAddress",
+              "type": "email",
+              "label": "Email Id",
+              "enabled": false,
+              "required": true,
+              "field_type": "standard"
+            },
+            {
+              "name": "fullName",
+              "type": "text",
+              "label": "Full name",
+              "enabled": false,
+              "required": false,
+              "field_type": "standard"
+            },
+            {
+              "name": "phoneNumber",
+              "type": "text",
+              "label": "Phone number",
+              "enabled": false,
+              "required": false,
+              "field_type": "standard"
+            }
+          ],
+          "pre_chat_message": "Share your queries or comments here."
+        },
+        "continuity_via_email": true,
+        "messaging_service_sid": null,
+        "phone_number": null,
+        "provider": null
+      }
+    ]
+  }
+}

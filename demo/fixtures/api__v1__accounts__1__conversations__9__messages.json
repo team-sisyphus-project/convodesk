@@ -1,0 +1,59 @@
+{
+  "path": "/api/v1/accounts/1/conversations/9/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [
+        "billing"
+      ],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "4ed3cf393cee77efd20638210f3266b3be983c87b67347970d71e4cdda96485a",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "yuki@kotoha.jp",
+        "id": 9,
+        "identifier": null,
+        "name": "Yuki Sasaki",
+        "phone_number": "+818012345678",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 27,
+        "content": "Can I connect a second email inbox?",
+        "inbox_id": 3,
+        "conversation_id": 9,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788500920,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "4ed3cf393cee77efd20638210f3266b3be983c87b67347970d71e4cdda96485a",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "yuki@kotoha.jp",
+          "id": 9,
+          "identifier": null,
+          "name": "Yuki Sasaki",
+          "phone_number": "+818012345678",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      }
+    ]
+  }
+}

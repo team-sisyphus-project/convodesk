@@ -1,0 +1,23 @@
+{
+  "path": "/api/v1/accounts/1/assignable_agents?inbox_ids[]=1&include_agent_bots=true",
+  "status": 200,
+  "body": {
+    "payload": [
+      {
+        "id": 1,
+        "account_id": 1,
+        "availability_status": "offline",
+        "auto_offline": true,
+        "confirmed": true,
+        "email": "john@acme.inc",
+        "provider": "email",
+        "available_name": "John",
+        "name": "John",
+        "role": "administrator",
+        "thumbnail": "",
+        "custom_role_id": null,
+        "assignee_type": "User"
+      }
+    ]
+  }
+}

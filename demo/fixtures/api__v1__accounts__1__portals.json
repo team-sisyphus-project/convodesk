@@ -1,0 +1,11 @@
+{
+  "path": "/api/v1/accounts/1/portals",
+  "status": 200,
+  "body": {
+    "payload": [],
+    "meta": {
+      "current_page": 1,
+      "portals_count": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "path": "/api/v1/accounts/1/automation_rules",
+  "status": 200,
+  "body": {
+    "payload": []
+  }
+}

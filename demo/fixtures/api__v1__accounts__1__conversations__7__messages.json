@@ -1,0 +1,119 @@
+{
+  "path": "/api/v1/accounts/1/conversations/7/messages",
+  "status": 200,
+  "body": {
+    "meta": {
+      "labels": [],
+      "additional_attributes": {},
+      "contact": {
+        "additional_attributes": {
+          "avatar_url_hash": "942a1c861c53f0b935ed2b172492761bffa3454ade2fd695270332ef890f0dd3",
+          "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+        },
+        "custom_attributes": {},
+        "email": "ana@cieloroto.es",
+        "id": 7,
+        "identifier": null,
+        "name": "Ana Belmonte",
+        "phone_number": "+34600123456",
+        "thumbnail": "",
+        "blocked": false,
+        "type": "contact"
+      },
+      "assignee": {
+        "id": 1,
+        "name": "John",
+        "available_name": "John",
+        "avatar_url": "",
+        "type": "user",
+        "availability_status": "offline",
+        "thumbnail": ""
+      },
+      "agent_last_seen_at": null,
+      "assignee_last_seen_at": null
+    },
+    "payload": [
+      {
+        "id": 24,
+        "content": "Is there a way to schedule replies?",
+        "inbox_id": 4,
+        "conversation_id": 7,
+        "message_type": 0,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788508120,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "942a1c861c53f0b935ed2b172492761bffa3454ade2fd695270332ef890f0dd3",
+            "last_avatar_sync_at": "2026-09-04T13:49:13Z"
+          },
+          "custom_attributes": {},
+          "email": "ana@cieloroto.es",
+          "id": 7,
+          "identifier": null,
+          "name": "Ana Belmonte",
+          "phone_number": "+34600123456",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      },
+      {
+        "id": 25,
+        "content": "Thanks for reaching out! Let me take a look at that for you.",
+        "inbox_id": 4,
+        "conversation_id": 7,
+        "message_type": 1,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788508840,
+        "private": false,
+        "source_id": null,
+        "sender": {
+          "id": 1,
+          "name": "John",
+          "available_name": "John",
+          "avatar_url": "",
+          "type": "user",
+          "availability_status": "offline",
+          "thumbnail": ""
+        }
+      },
+      {
+        "id": 28,
+        "content": "System reopened the conversation due to a new incoming message.",
+        "inbox_id": 4,
+        "conversation_id": 7,
+        "message_type": 2,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {
+          "activity": {
+            "type": "conversation_status_changed",
+            "status": "open"
+          }
+        },
+        "created_at": 1788529722,
+        "private": false,
+        "source_id": null
+      },
+      {
+        "id": 30,
+        "content": "Assigned to John by Default Policy",
+        "inbox_id": 4,
+        "conversation_id": 7,
+        "message_type": 2,
+        "content_type": "text",
+        "status": "sent",
+        "content_attributes": {},
+        "created_at": 1788529723,
+        "private": false,
+        "source_id": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "path": "/api/v1/accounts/1/conversations/1/attachments",
+  "status": 200,
+  "body": {
+    "meta": {
+      "total_count": 1
+    },
+    "payload": [
+      {
+        "id": 1,
+        "message_id": 3,
+        "thumb_url": null,
+        "data_url": null,
+        "file_size": null,
+        "file_type": "location",
+        "extension": null,
+        "width": null,
+        "height": null,
+        "created_at": 1788528854,
+        "sender": {
+          "additional_attributes": {
+            "avatar_url_hash": "89e8560b88ce77c2d1985c8a334bfaea35186b43b301a9b77f2261a465a9b447",
+            "last_avatar_sync_at": "2026-09-04T13:35:06Z"
+          },
+          "custom_attributes": {},
+          "email": "jane@example.com",
+          "id": 1,
+          "identifier": null,
+          "name": "jane",
+          "phone_number": "+2320000",
+          "thumbnail": "",
+          "blocked": false,
+          "type": "contact"
+        }
+      }
+    ]
+  }
+}

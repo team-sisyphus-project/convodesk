@@ -1,0 +1,9 @@
+{
+  "path": "/api/v1/accounts/1/conversations/1/labels",
+  "status": 200,
+  "body": {
+    "payload": [
+      "device-setup"
+    ]
+  }
+}

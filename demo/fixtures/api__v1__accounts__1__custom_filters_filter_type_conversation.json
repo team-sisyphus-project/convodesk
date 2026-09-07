@@ -1,0 +1,5 @@
+{
+  "path": "/api/v1/accounts/1/custom_filters?filter_type=conversation",
+  "status": 200,
+  "body": []
+}
